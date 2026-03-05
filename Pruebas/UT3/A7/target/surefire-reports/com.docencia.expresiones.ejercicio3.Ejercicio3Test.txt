@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio3.Ejercicio3Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio3.Ejercicio3Test
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaNull_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaNull_false(Ejercicio3Test.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinNumero_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinNumero_false(Ejercicio3Test.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_conEspacioEnMedio_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_conEspacioEnMedio_false(Ejercicio3Test.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinMinuscula_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinMinuscula_false(Ejercicio3Test.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaValida_justoDiez_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaValida_justoDiez_true(Ejercicio3Test.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinMayuscula_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinMayuscula_false(Ejercicio3Test.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_conEspacioFinal_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_conEspacioFinal_false(Ejercicio3Test.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinSimbolo_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_sinSimbolo_false(Ejercicio3Test.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaValida_tipica_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaValida_tipica_true(Ejercicio3Test.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_menosDeDiez_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio3.Ejercicio3.esContrasenaFuerteValida(Ejercicio3.java:9)
+	at com.docencia.expresiones.ejercicio3.Ejercicio3Test.contrasenaInvalida_menosDeDiez_false(Ejercicio3Test.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio3.Ejercicio03Test
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio3.Ejercicio03Test
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectNullTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectNullTest(Ejercicio03Test.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDoubleAtTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDoubleAtTest(Ejercicio03Test.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDoubleDotTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDoubleDotTest(Ejercicio03Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldAcceptValidEmailWithDotsAndPlusTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldAcceptValidEmailWithDotsAndPlusTest(Ejercicio03Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectEmptyStringTest(Ejercicio03Test.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectLeadingOrTrailingSpacesTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectLeadingOrTrailingSpacesTest(Ejercicio03Test.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDomainWithoutDotTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDomainWithoutDotTest(Ejercicio03Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectEmptyLocalPartTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectEmptyLocalPartTest(Ejercicio03Test.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldAcceptValidEmailAAtBDotComTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldAcceptValidEmailAAtBDotComTest(Ejercicio03Test.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectEmailWithSpacesTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectEmailWithSpacesTest(Ejercicio03Test.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDomainStartingWithDotTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio3.Ejercicio03.isValidEmail(Ejercicio03.java:18)
+	at com.docencia.expresiones.ejercicio3.Ejercicio03Test.shouldRejectDomainStartingWithDotTest(Ejercicio03Test.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

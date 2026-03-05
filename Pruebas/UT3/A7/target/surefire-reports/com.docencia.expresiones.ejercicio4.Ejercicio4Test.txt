@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio4.Ejercicio4Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio4.Ejercicio4Test
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoHoraInvalida_2400_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoHoraInvalida_2400_false(Ejercicio4Test.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoConHora_horaMinima_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoConHora_horaMinima_true(Ejercicio4Test.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoNull_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoNull_false(Ejercicio4Test.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoConHora_valida_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoConHora_valida_true(Ejercicio4Test.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoConHora_horaMaxima_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoConHora_horaMaxima_true(Ejercicio4Test.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoSoloFecha_valida_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoSoloFecha_valida_true(Ejercicio4Test.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoSeparadorIncorrecto_conT_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoSeparadorIncorrecto_conT_false(Ejercicio4Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoDiaInvalido_32_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoDiaInvalido_32_false(Ejercicio4Test.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoMesInvalido_00_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoMesInvalido_00_false(Ejercicio4Test.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoMesInvalido_13_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio4.Ejercicio4.esFechaIsoConHoraOpcionalValida(Ejercicio4.java:8)
+	at com.docencia.expresiones.ejercicio4.Ejercicio4Test.isoMesInvalido_13_false(Ejercicio4Test.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

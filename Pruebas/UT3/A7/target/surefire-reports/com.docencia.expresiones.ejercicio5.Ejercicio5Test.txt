@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio5.Ejercicio5Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio5.Ejercicio5Test
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.null_false -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.null_false(Ejercicio5Test.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_minutos60_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_minutos60_false(Ejercicio5Test.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_limiteNoche_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_limiteNoche_true(Ejercicio5Test.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_ampmMinusculas_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_ampmMinusculas_false(Ejercicio5Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_mediodia_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_mediodia_true(Ejercicio5Test.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_hora00_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_hora00_false(Ejercicio5Test.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_horaSinCero_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_horaSinCero_true(Ejercicio5Test.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_horaConCero_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.valida_horaConCero_true(Ejercicio5Test.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_hora13_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_hora13_false(Ejercicio5Test.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_mes13_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio5.Ejercicio5.esFechaHora12hAmPmValida(Ejercicio5.java:9)
+	at com.docencia.expresiones.ejercicio5.Ejercicio5Test.invalida_mes13_false(Ejercicio5Test.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

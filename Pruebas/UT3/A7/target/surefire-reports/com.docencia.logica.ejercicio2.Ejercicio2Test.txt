@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.logica.ejercicio2.Ejercicio2Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in com.docencia.logica.ejercicio2.Ejercicio2Test
+com.docencia.logica.ejercicio2.Ejercicio2Test.edad_yaCumplioEsteAnio_ok -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio2.Ejercicio2.calcularEdad(Ejercicio2.java:13)
+	at com.docencia.logica.ejercicio2.Ejercicio2Test.edad_yaCumplioEsteAnio_ok(Ejercicio2Test.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio2.Ejercicio2Test.edad_noHaCumplidoEsteAnio_ok -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio2.Ejercicio2.calcularEdad(Ejercicio2.java:13)
+	at com.docencia.logica.ejercicio2.Ejercicio2Test.edad_noHaCumplidoEsteAnio_ok(Ejercicio2Test.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio2.Ejercicio2Test.edad_cumpleHoy_ok -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio2.Ejercicio2.calcularEdad(Ejercicio2.java:13)
+	at com.docencia.logica.ejercicio2.Ejercicio2Test.edad_cumpleHoy_ok(Ejercicio2Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio2.Ejercicio2Test.edad_bisiesto_29Feb_ok -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio2.Ejercicio2.calcularEdad(Ejercicio2.java:13)
+	at com.docencia.logica.ejercicio2.Ejercicio2Test.edad_bisiesto_29Feb_ok(Ejercicio2Test.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

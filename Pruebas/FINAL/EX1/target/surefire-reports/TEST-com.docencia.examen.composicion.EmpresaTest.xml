@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.docencia.examen.composicion.EmpresaTest" time="0.014" tests="10" errors="1" skipped="0" failures="7">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jpexposito/Downloads/prog-1-evaluacion/target/test-classes:/Users/jpexposito/Downloads/prog-1-evaluacion/target/classes:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/jpexposito/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/jpexposito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jpexposito/Downloads/prog-1-evaluacion/target/surefire/surefirebooter-20251210180234056_3.jar /Users/jpexposito/Downloads/prog-1-evaluacion/target/surefire 2025-12-10T18-02-34_025-jvmRun1 surefire-20251210180234056_1tmp surefire_0-20251210180234056_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jpexposito/Downloads/prog-1-evaluacion/target/test-classes:/Users/jpexposito/Downloads/prog-1-evaluacion/target/classes:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/jpexposito/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/jpexposito/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/jpexposito/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/jpexposito/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jpexposito"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jpexposito/Downloads/prog-1-evaluacion"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jpexposito/Downloads/prog-1-evaluacion/target/surefire/surefirebooter-20251210180234056_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="jpexposito"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jpexposito/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/q5/g2wxn8j93dd20yscy5pqcnt00000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/jpexposito/Downloads/prog-1-evaluacion"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jpexposito/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="getEmpleados_devuelveCopia" classname="com.docencia.examen.composicion.EmpresaTest" time="0.0">
+    <error message="Cannot invoke &quot;java.util.List.size()&quot; because &quot;copia&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "copia" is null
+	at com.docencia.examen.composicion.EmpresaTest.getEmpleados_devuelveCopia(EmpresaTest.java:190)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></error>
+  </testcase>
+  <testcase name="buscarPorIdentificador_devuelveNullCuandoNoExiste" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001"/>
+  <testcase name="agregarEmpleado_incrementaNumeroEmpleados" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001">
+    <failure message="Multiple Failures (4 failures)&#10;	org.opentest4j.AssertionFailedError: expected: &lt;2&gt; but was: &lt;0&gt;&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.size()&quot; because the return value of &quot;com.docencia.examen.composicion.Empresa.getEmpleados()&quot; is null&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.contains(Object)&quot; because the return value of &quot;com.docencia.examen.composicion.Empresa.getEmpleados()&quot; is null&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.contains(Object)&quot; because the return value of &quot;com.docencia.examen.composicion.Empresa.getEmpleados()&quot; is null" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (4 failures)
+	org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+	java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+	java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2940)
+	at com.docencia.examen.composicion.EmpresaTest.agregarEmpleado_incrementaNumeroEmpleados(EmpresaTest.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	Suppressed: org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+		at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+		at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+		at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+		at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+		at com.docencia.examen.composicion.EmpresaTest.lambda$agregarEmpleado_incrementaNumeroEmpleados$0(EmpresaTest.java:54)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$agregarEmpleado_incrementaNumeroEmpleados$1(EmpresaTest.java:55)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$agregarEmpleado_incrementaNumeroEmpleados$2(EmpresaTest.java:56)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$agregarEmpleado_incrementaNumeroEmpleados$3(EmpresaTest.java:57)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+]]></failure>
+  </testcase>
+  <testcase name="buscarPorIdentificador_encuentraEmpleado" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001">
+    <failure message="Multiple Failures (3 failures)&#10;	org.opentest4j.AssertionFailedError: expected: not &lt;null&gt;&#10;	java.lang.NullPointerException: Cannot invoke &quot;com.docencia.examen.herencia.Empleado.getIdentificador()&quot; because &quot;encontrado&quot; is null&#10;	java.lang.NullPointerException: Cannot invoke &quot;com.docencia.examen.herencia.Empleado.getNombre()&quot; because &quot;encontrado&quot; is null" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (3 failures)
+	org.opentest4j.AssertionFailedError: expected: not <null>
+	java.lang.NullPointerException: Cannot invoke "com.docencia.examen.herencia.Empleado.getIdentificador()" because "encontrado" is null
+	java.lang.NullPointerException: Cannot invoke "com.docencia.examen.herencia.Empleado.getNombre()" because "encontrado" is null
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2940)
+	at com.docencia.examen.composicion.EmpresaTest.buscarPorIdentificador_encuentraEmpleado(EmpresaTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	Suppressed: org.opentest4j.AssertionFailedError: expected: not <null>
+		at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+		at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+		at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+		at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+		at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
+		at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:300)
+		at com.docencia.examen.composicion.EmpresaTest.lambda$buscarPorIdentificador_encuentraEmpleado$0(EmpresaTest.java:112)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: java.lang.NullPointerException: Cannot invoke "com.docencia.examen.herencia.Empleado.getIdentificador()" because "encontrado" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$buscarPorIdentificador_encuentraEmpleado$1(EmpresaTest.java:113)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: java.lang.NullPointerException: Cannot invoke "com.docencia.examen.herencia.Empleado.getNombre()" because "encontrado" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$buscarPorIdentificador_encuentraEmpleado$2(EmpresaTest.java:114)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+]]></failure>
+  </testcase>
+  <testcase name="eliminarPorIdentificador_idNull" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: expected: &lt;1&gt; but was: &lt;0&gt;" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2940)
+	at com.docencia.examen.composicion.EmpresaTest.eliminarPorIdentificador_idNull(EmpresaTest.java:174)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	Suppressed: org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+		at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+		at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+		at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+		at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+		at com.docencia.examen.composicion.EmpresaTest.lambda$eliminarPorIdentificador_idNull$1(EmpresaTest.java:176)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+]]></failure>
+  </testcase>
+  <testcase name="agregarEmpleado_ignoraNull" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001"/>
+  <testcase name="toString_contieneInformacionBasica" classname="com.docencia.examen.composicion.EmpresaTest" time="0.004">
+    <failure message="Multiple Failures (2 failures)&#10;	org.opentest4j.AssertionFailedError: Debe contener el nombre del director general ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;&#10;	org.opentest4j.AssertionFailedError: Debe contener el número de empleados ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: Debe contener el nombre del director general ==> expected: <true> but was: <false>
+	org.opentest4j.AssertionFailedError: Debe contener el número de empleados ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2940)
+	at com.docencia.examen.composicion.EmpresaTest.toString_contieneInformacionBasica(EmpresaTest.java:212)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	Suppressed: org.opentest4j.AssertionFailedError: Debe contener el nombre del director general ==> expected: <true> but was: <false>
+		at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+		at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+		at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+		at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+		at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
+		at com.docencia.examen.composicion.EmpresaTest.lambda$toString_contieneInformacionBasica$2(EmpresaTest.java:215)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: org.opentest4j.AssertionFailedError: Debe contener el número de empleados ==> expected: <true> but was: <false>
+		at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+		at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+		at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+		at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+		at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
+		at com.docencia.examen.composicion.EmpresaTest.lambda$toString_contieneInformacionBasica$3(EmpresaTest.java:216)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+]]></failure>
+  </testcase>
+  <testcase name="constructor_inicializaCamposYNoTieneEmpleados" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001">
+    <failure message="Multiple Failures (1 failure)&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.isEmpty()&quot; because the return value of &quot;com.docencia.examen.composicion.Empresa.getEmpleados()&quot; is null" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2940)
+	at com.docencia.examen.composicion.EmpresaTest.constructor_inicializaCamposYNoTieneEmpleados(EmpresaTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$constructor_inicializaCamposYNoTieneEmpleados$4(EmpresaTest.java:37)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+]]></failure>
+  </testcase>
+  <testcase name="eliminarPorIdentificador_borraEmpleadosYDevuelveTrue" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001">
+    <failure message="expected: &lt;3&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <3> but was: <0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at com.docencia.examen.composicion.EmpresaTest.eliminarPorIdentificador_borraEmpleadosYDevuelveTrue(EmpresaTest.java:149)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+  </testcase>
+  <testcase name="empresaPuedeGuardarDirectivoComoEmpleado" classname="com.docencia.examen.composicion.EmpresaTest" time="0.001">
+    <failure message="Multiple Failures (3 failures)&#10;	org.opentest4j.AssertionFailedError: expected: &lt;1&gt; but was: &lt;0&gt;&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.contains(Object)&quot; because the return value of &quot;com.docencia.examen.composicion.Empresa.getEmpleados()&quot; is null&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.get(int)&quot; because the return value of &quot;com.docencia.examen.composicion.Empresa.getEmpleados()&quot; is null" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (3 failures)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+	java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2940)
+	at com.docencia.examen.composicion.EmpresaTest.empresaPuedeGuardarDirectivoComoEmpleado(EmpresaTest.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	Suppressed: org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+		at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+		at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+		at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+		at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+		at com.docencia.examen.composicion.EmpresaTest.lambda$empresaPuedeGuardarDirectivoComoEmpleado$0(EmpresaTest.java:91)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.List.contains(Object)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$empresaPuedeGuardarDirectivoComoEmpleado$1(EmpresaTest.java:92)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because the return value of "com.docencia.examen.composicion.Empresa.getEmpleados()" is null
+		at com.docencia.examen.composicion.EmpresaTest.lambda$empresaPuedeGuardarDirectivoComoEmpleado$2(EmpresaTest.java:93)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+]]></failure>
+  </testcase>
+</testsuite>

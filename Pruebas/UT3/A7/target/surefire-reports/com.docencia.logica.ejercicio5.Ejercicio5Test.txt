@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.logica.ejercicio5.Ejercicio5Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in com.docencia.logica.ejercicio5.Ejercicio5Test
+com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_domingo_mas1_llegaALunes -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio5.Ejercicio5.sumarDiasLaborables(Ejercicio5.java:13)
+	at com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_domingo_mas1_llegaALunes(Ejercicio5Test.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_viernes_mas2_llegaAMartes -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio5.Ejercicio5.sumarDiasLaborables(Ejercicio5.java:13)
+	at com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_viernes_mas2_llegaAMartes(Ejercicio5Test.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_n0_devuelveMismaFechaAunqueSeaFinde -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio5.Ejercicio5.sumarDiasLaborables(Ejercicio5.java:13)
+	at com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_n0_devuelveMismaFechaAunqueSeaFinde(Ejercicio5Test.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_lunes_mas5_llegaALunesSiguiente -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio5.Ejercicio5.sumarDiasLaborables(Ejercicio5.java:13)
+	at com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_lunes_mas5_llegaALunesSiguiente(Ejercicio5Test.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_cruzaUnFinde_llegaCorrecto -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio5.Ejercicio5.sumarDiasLaborables(Ejercicio5.java:13)
+	at com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_cruzaUnFinde_llegaCorrecto(Ejercicio5Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_viernes_mas1_llegaALunes -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio5.Ejercicio5.sumarDiasLaborables(Ejercicio5.java:13)
+	at com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_viernes_mas1_llegaALunes(Ejercicio5Test.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_sabado_mas1_llegaALunes -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio5.Ejercicio5.sumarDiasLaborables(Ejercicio5.java:13)
+	at com.docencia.logica.ejercicio5.Ejercicio5Test.sumar_sabado_mas1_llegaALunes(Ejercicio5Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,0 +1,229 @@
+-------------------------------------------------------------------------------
+Test set: regexfechas.Exercise10Test
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! -- in regexfechas.Exercise10Test
+regexfechas.Exercise10Test.t03_twoDates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.util.regex.PatternSyntaxException: Unmatched closing ')'
+);
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	... 4 more
+
+regexfechas.Exercise10Test.t13_emptyString -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t13_emptyString(Exercise10Test.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t12_leapDayFoundByRegex -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t12_leapDayFoundByRegex(Exercise10Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t08_startOfText -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t08_startOfText(Exercise10Test.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t09_endOfText -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t09_endOfText(Exercise10Test.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t10_invalidDay00NotFound -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t10_invalidDay00NotFound(Exercise10Test.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t04_badShortFormat -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t04_badShortFormat(Exercise10Test.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t01_singleDate -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t01_singleDate(Exercise10Test.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t07_embeddedInLettersNoBoundary -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t07_embeddedInLettersNoBoundary(Exercise10Test.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t06_parenthesesBoundary -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t06_parenthesesBoundary(Exercise10Test.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t15_multipleWithPunctuation -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t15_multipleWithPunctuation(Exercise10Test.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t02_noDate -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t02_noDate(Exercise10Test.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t14_nullString -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t14_nullString(Exercise10Test.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t05_wrongSeparatorDash -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t05_wrongSeparatorDash(Exercise10Test.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+
+regexfechas.Exercise10Test.t11_invalidMonth13NotFound -- Time elapsed: 0 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class regexfechas.Exercise01
+	at regexfechas.Exercise10Test.t11_invalidMonth13NotFound(Exercise10Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.util.regex.PatternSyntaxException [in thread "main"]
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2055)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1814)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1441)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1069)
+	at regexfechas.Exercise01.<clinit>(Exercise01.java:12)
+	at regexfechas.Exercise10Test.t03_twoDates(Exercise10Test.java:24)
+	... 3 more
+

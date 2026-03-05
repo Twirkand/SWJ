@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: regexfechas.Exercise16Test
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in regexfechas.Exercise16Test
+regexfechas.Exercise16Test.t14_extractLeapDay -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:304)
+	at regexfechas.Exercise16Test.t14_extractLeapDay(Exercise16Test.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+regexfechas.Exercise16Test.t01_extractValid -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.failActualArrayIsNull(AssertArrayEquals.java:416)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysNotNull(AssertArrayEquals.java:401)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:236)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:87)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:83)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1281)
+	at regexfechas.Exercise16Test.t01_extractValid(Exercise16Test.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+regexfechas.Exercise16Test.t15_extractDoesNotValidateCalendar -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:304)
+	at regexfechas.Exercise16Test.t15_extractDoesNotValidateCalendar(Exercise16Test.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+regexfechas.Exercise16Test.t02_extractYear0000 -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.failActualArrayIsNull(AssertArrayEquals.java:416)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysNotNull(AssertArrayEquals.java:401)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:236)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:87)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:83)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1281)
+	at regexfechas.Exercise16Test.t02_extractYear0000(Exercise16Test.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+regexfechas.Exercise16Test.t03_extractEndYear -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: actual array was <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.failActualArrayIsNull(AssertArrayEquals.java:416)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysNotNull(AssertArrayEquals.java:401)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:236)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:87)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:83)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1281)
+	at regexfechas.Exercise16Test.t03_extractEndYear(Exercise16Test.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

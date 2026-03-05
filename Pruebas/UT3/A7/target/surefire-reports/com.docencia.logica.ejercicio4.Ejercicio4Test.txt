@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.logica.ejercicio4.Ejercicio4Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in com.docencia.logica.ejercicio4.Ejercicio4Test
+com.docencia.logica.ejercicio4.Ejercicio4Test.otroLunes_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.otroLunes_true(Ejercicio4Test.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.miercoles_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.miercoles_true(Ejercicio4Test.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.null_lanzaNullPointerException -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.NullPointerException> but was: <java.lang.IllegalArgumentException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.null_lanzaNullPointerException(Ejercicio4Test.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.lambda$null_lanzaNullPointerException$0(Ejercicio4Test.java:76)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.martes_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.martes_true(Ejercicio4Test.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.sabado_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.sabado_false(Ejercicio4Test.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.lunes_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.lunes_true(Ejercicio4Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.domingo_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.domingo_false(Ejercicio4Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.otroSabado_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.otroSabado_false(Ejercicio4Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.viernes_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.viernes_true(Ejercicio4Test.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio4.Ejercicio4Test.jueves_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio4.Ejercicio4.esLaborable(Ejercicio4.java:15)
+	at com.docencia.logica.ejercicio4.Ejercicio4Test.jueves_true(Ejercicio4Test.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

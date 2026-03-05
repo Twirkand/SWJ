@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.logica.ejercicio3.Ejercicio3Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.docencia.logica.ejercicio3.Ejercicio3Test
+com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_viernesSinFestivos_devuelveMismaFecha -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio3.Ejercicio3.siguienteLaborable(Ejercicio3.java:14)
+	at com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_viernesSinFestivos_devuelveMismaFecha(Ejercicio3Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_festivoEntreSemana_avanza -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio3.Ejercicio3.siguienteLaborable(Ejercicio3.java:14)
+	at com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_festivoEntreSemana_avanza(Ejercicio3Test.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_domingo_saltaALunes -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio3.Ejercicio3.siguienteLaborable(Ejercicio3.java:14)
+	at com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_domingo_saltaALunes(Ejercicio3Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_sabado_saltaALunes -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio3.Ejercicio3.siguienteLaborable(Ejercicio3.java:14)
+	at com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_sabado_saltaALunes(Ejercicio3Test.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_sabadoFestivo_saltaALunes -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio3.Ejercicio3.siguienteLaborable(Ejercicio3.java:14)
+	at com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_sabadoFestivo_saltaALunes(Ejercicio3Test.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_viernesFestivo_pasaALunes -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio3.Ejercicio3.siguienteLaborable(Ejercicio3.java:14)
+	at com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_viernesFestivo_pasaALunes(Ejercicio3Test.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_findeMasFestivosConsecutivos_saltaHastaMiercoles -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio3.Ejercicio3.siguienteLaborable(Ejercicio3.java:14)
+	at com.docencia.logica.ejercicio3.Ejercicio3Test.siguienteLaborable_findeMasFestivosConsecutivos_saltaHastaMiercoles(Ejercicio3Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,0 +1,148 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio1.Ejercicio01Test
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 18, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio1.Ejercicio01Test
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectNullTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectNullTest(Ejercicio01Test.java:121)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime0000Test -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime0000Test(Ejercicio01Test.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectInvalidSeparator07_5WithDashTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectInvalidSeparator07_5WithDashTest(Ejercicio01Test.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectInvalidFormatSingleDigitHour705Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectInvalidFormatSingleDigitHour705Test(Ejercicio01Test.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectInvalidFormatSingleDigitMinute075Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectInvalidFormatSingleDigitMinute075Test(Ejercicio01Test.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectSpaceInsideTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectSpaceInsideTest(Ejercicio01Test.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime1959Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime1959Test(Ejercicio01Test.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectHourOutOfRange9999Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectHourOutOfRange9999Test(Ejercicio01Test.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectHourOutOfRange2400Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectHourOutOfRange2400Test(Ejercicio01Test.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime0705Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime0705Test(Ejercicio01Test.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectMinutesOutOfRange1260Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectMinutesOutOfRange1260Test(Ejercicio01Test.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime2359Test -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime2359Test(Ejercicio01Test.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectNonNumericTimeAaBbTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectNonNumericTimeAaBbTest(Ejercicio01Test.java:89)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectMinutesOutOfRange1299Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectMinutesOutOfRange1299Test(Ejercicio01Test.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectEmptyStringTest(Ejercicio01Test.java:95)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectTrailingSpaceTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectTrailingSpaceTest(Ejercicio01Test.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime2000Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldAcceptValidTime2000Test(Ejercicio01Test.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectLeadingSpaceTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio1.Ejercicio01.isValidHora24h(Ejercicio01.java:17)
+	at com.docencia.expresiones.ejercicio1.Ejercicio01Test.shouldRejectLeadingSpaceTest(Ejercicio01Test.java:102)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

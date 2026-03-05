@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.logica.ejercicio1.Ejercicio1Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.docencia.logica.ejercicio1.Ejercicio1Test
+com.docencia.logica.ejercicio1.Ejercicio1Test.formatoInvalido_sinCero_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.formatoInvalido_sinCero_false(Ejercicio1Test.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.dentroHorario_igualFin_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.dentroHorario_igualFin_true(Ejercicio1Test.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.dentroHorario_casoTipico_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.dentroHorario_casoTipico_true(Ejercicio1Test.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.nullInicio_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.nullInicio_false(Ejercicio1Test.java:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.intervaloPunto_yCoincide_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.intervaloPunto_yCoincide_true(Ejercicio1Test.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.dentroHorario_igualInicio_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.dentroHorario_igualInicio_true(Ejercicio1Test.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.nullHora_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.nullHora_false(Ejercicio1Test.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.fueraHorario_porAbajo_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.fueraHorario_porAbajo_false(Ejercicio1Test.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.horaInvalida_2400_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.horaInvalida_2400_false(Ejercicio1Test.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.logica.ejercicio1.Ejercicio1Test.fueraHorario_porArriba_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.logica.ejercicio1.Ejercicio1.estaDentroHorario(Ejercicio1.java:14)
+	at com.docencia.logica.ejercicio1.Ejercicio1Test.fueraHorario_porArriba_false(Ejercicio1Test.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

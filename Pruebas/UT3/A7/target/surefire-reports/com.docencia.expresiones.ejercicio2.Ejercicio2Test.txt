@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio2.Ejercicio2Test
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio2.Ejercicio2Test
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_httpBasica_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_httpBasica_true(Ejercicio2Test.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_httpsBasica_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_httpsBasica_true(Ejercicio2Test.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_conSubdominio_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_conSubdominio_true(Ejercicio2Test.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_sinProtocolo_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_sinProtocolo_false(Ejercicio2Test.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_tldNumerico_false -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_tldNumerico_false(Ejercicio2Test.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_conRuta_true -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_conRuta_true(Ejercicio2Test.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlNull_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlNull_false(Ejercicio2Test.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_sinTld_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_sinTld_false(Ejercicio2Test.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_protocoloFtp_false -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlInvalida_protocoloFtp_false(Ejercicio2Test.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_conBarraFinal_true -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalArgumentException
+	at com.docencia.expresiones.ejercicio2.Ejercicio2.esUrlHttpValida(Ejercicio2.java:11)
+	at com.docencia.expresiones.ejercicio2.Ejercicio2Test.urlValida_conBarraFinal_true(Ejercicio2Test.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

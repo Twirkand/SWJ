@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: com.docencia.expresiones.ejercicio2.Ejercicio02Test
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.docencia.expresiones.ejercicio2.Ejercicio02Test
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectInvalidFormatSingleDigitDayTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectInvalidFormatSingleDigitDayTest(Ejercicio02Test.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidLowerBoundsTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidLowerBoundsTest(Ejercicio02Test.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectNullTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectNullTest(Ejercicio02Test.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectMonthOutOfRange00Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectMonthOutOfRange00Test(Ejercicio02Test.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectMonthOutOfRange13Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectMonthOutOfRange13Test(Ejercicio02Test.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectDayOutOfRange00Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectDayOutOfRange00Test(Ejercicio02Test.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectNonNumericTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectNonNumericTest(Ejercicio02Test.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectDayOutOfRange32Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectDayOutOfRange32Test(Ejercicio02Test.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidDate2025_01_09Test -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidDate2025_01_09Test(Ejercicio02Test.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectInvalidSeparatorTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectInvalidSeparatorTest(Ejercicio02Test.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidDate1999_12_31Test -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidDate1999_12_31Test(Ejercicio02Test.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectInvalidFormatSingleDigitMonthTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectInvalidFormatSingleDigitMonthTest(Ejercicio02Test.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectEmptyStringTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectEmptyStringTest(Ejercicio02Test.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidUpperBoundsTest -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldAcceptValidUpperBoundsTest(Ejercicio02Test.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectLeadingOrTrailingSpacesTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectLeadingOrTrailingSpacesTest(Ejercicio02Test.java:97)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectMissingPartsTest -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at com.docencia.expresiones.ejercicio2.Ejercicio02.isValidDateFormat(Ejercicio02.java:17)
+	at com.docencia.expresiones.ejercicio2.Ejercicio02Test.shouldRejectMissingPartsTest(Ejercicio02Test.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
